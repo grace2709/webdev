@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+            size: 100px;
+            border-radius: 2%;
+            background-color: cornsilk;
+        }
+        header{
+            color: black;
+        }
+        main{
+            color: aquamarine;
+        }
+        fieldset{
+            border-width: 3%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Chiamaka's Form</h1>
+    </header>
+    <nav>
+        <main>
+            <section>
+                <form action="/submit.html">
+                    
+                        <fieldset>
+                                <legend>Bio data</legend>
+                                <label for="name">Name</label>
+                                <input type="text" placeholder="Name" required> <br>
+
+                                <label for="email">Email</label>
+                                <input type="email"required placeholder="Email address"><br>
+
+                                <label for="phonenumber">Phone</label>
+                                <input type="tel"placeholder  required ="Phone"><br>
+                                
+                                <label for="Gender"><input type="radio" name="gender" value="male" aria-required="false"> Male
+
+                                </label>
+                                <br>
+                                <label >
+                                    <input type="radio" name = "gender" value ="female" aria-required="false">Female
+                                </label>
+                                <br>
+                                
+                                <label for="password">Password</label>
+                                <input type="password" placeholder="Password" required>
+                                <button>
+                                    <link rel="stylesheet" href="submit.html">Submit
+                                </button>
+                                
+                        </fieldset>
+                    
+                </form>
+            </section>
+        </main>
+    </nav>
+</body>
+</html>
